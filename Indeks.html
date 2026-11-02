@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Inovasi & Design Thinking Agribisnis Perikanan</title>
+<style>
+:root{--bg:#f4f9fb;--card:#fff;--tx:#10303a;--mu:#52717b;--pr:#0b7a8f;--pr2:#e0f3f6;--ok:#1b8a4b;--okb:#e2f6ea;--no:#c0392b;--nob:#fbe7e4;--bd:#cfe3e8;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0c1d23;--card:#142c34;--tx:#e6f3f6;--mu:#9bb8c0;--pr:#4cc3d9;--pr2:#17404a;--ok:#5fd68f;--okb:#15382436;--no:#ff8a7a;--nob:#40201c;--bd:#27474f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0c1d23;--card:#142c34;--tx:#e6f3f6;--mu:#9bb8c0;--pr:#4cc3d9;--pr2:#17404a;--ok:#5fd68f;--okb:#153824;--no:#ff8a7a;--nob:#40201c;--bd:#27474f;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:linear-gradient(135deg,#0b7a8f,#0a4f66);color:#fff;padding:22px 16px 18px;text-align:center}
+header h1{margin:0 0 4px;font-size:1.35rem}header p{margin:0;opacity:.9;font-size:.9rem}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--card);border-bottom:1px solid var(--bd);display:flex;gap:6px;overflow-x:auto;padding:8px;z-index:5}
+nav button{flex:0 0 auto;border:1px solid var(--bd);background:var(--bg);color:var(--tx);padding:8px 14px;border-radius:20px;cursor:pointer;font:inherit;font-size:.88rem}
+nav button.on{background:var(--pr);color:#fff;border-color:var(--pr)}
+main{max-width:760px;margin:0 auto;padding:16px}
+section{display:none}section.on{display:block}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px;margin-bottom:14px}
+h2{margin:0 0 8px;font-size:1.2rem;color:var(--pr)}h3{margin:0 0 6px;font-size:1.02rem}
+.tag{display:inline-block;background:var(--pr2);color:var(--pr);font-size:.75rem;padding:2px 10px;border-radius:12px;font-weight:600;margin-bottom:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.mini{background:var(--pr2);border-radius:10px;padding:10px 12px;font-size:.92rem}
+details{border:1px solid var(--bd);border-radius:10px;padding:10px 12px;margin:8px 0;background:var(--bg)}
+summary{cursor:pointer;font-weight:600}
+.btn{background:var(--pr);color:#fff;border:0;border-radius:10px;padding:9px 16px;cursor:pointer;font:inherit}
+.opt{display:block;width:100%;text-align:left;margin:6px 0;padding:10px 12px;border:1px solid var(--bd);border-radius:10px;background:var(--card);color:var(--tx);cursor:pointer;font:inherit}
+.opt:hover{border-color:var(--pr)}.opt.ok{background:var(--okb);border-color:var(--ok)}.opt.no{background:var(--nob);border-color:var(--no)}
+.fb{margin-top:6px;font-size:.9rem;padding:8px 10px;border-radius:8px;display:none}
+.fb.ok{display:block;background:var(--okb);color:var(--ok)}.fb.no{display:block;background:var(--nob);color:var(--no)}
+.q{border-top:1px dashed var(--bd);padding-top:12px;margin-top:12px}
+input[type=number],select{font:inherit;padding:8px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--tx);width:130px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0}
+.read{background:var(--pr2);border-left:4px solid var(--pr);padding:12px 14px;border-radius:8px;font-size:.95rem}
+.score{text-align:center;font-size:2.4rem;font-weight:700;color:var(--pr)}
+.bar{height:10px;background:var(--pr2);border-radius:6px;overflow:hidden}.bar i{display:block;height:100%;background:var(--pr);width:0;transition:width .4s}
+.steps{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.steps button{flex:1 1 90px;padding:10px 6px;border:2px solid var(--bd);background:var(--card);color:var(--tx);border-radius:10px;cursor:pointer;font:inherit;font-size:.85rem}
+.steps button.on{border-color:var(--pr);background:var(--pr2);font-weight:700}
+.emap{display:grid;grid-template-columns:1fr 1fr;gap:8px}.emap div{border-radius:10px;padding:10px;font-size:.88rem;background:var(--pr2)}
+.emap b{display:block;color:var(--pr)}
+table{width:100%;border-collapse:collapse;font-size:.9rem}td,th{border:1px solid var(--bd);padding:6px 8px;text-align:left}
+</style>
+</head>
+<body>
+<header><h1>🐟 Inovasi &amp; Design Thinking</h1><p>Agribisnis Perikanan · Literasi &amp; Numerasi</p></header>
+<nav id="nav"></nav>
+<main>
+
+<section id="s0">
+<div class="card"><span class="tag">Selamat datang</span><h2>Tujuan Pembelajaran</h2>
+<p>Setelah belajar, kamu mampu:</p>
+<div class="grid">
+<div class="mini">1. Menjelaskan pengertian, tujuan, manfaat, dan contoh inovasi di agribisnis perikanan.</div>
+<div class="mini">2. Menyebutkan lima tahap Design Thinking.</div>
+<div class="mini">3. Memahami kebutuhan pembudidaya, nelayan, dan konsumen lewat tahap <i>Empathize</i>.</div>
+<div class="mini">4. Membaca teks &amp; menghitung data sederhana untuk mendukung keputusan.</div></div>
+<p style="margin-top:12px"><button class="btn" onclick="go(1)">Mulai belajar →</button></p></div>
+<div class="card"><h3>Kemajuanmu</h3><div class="bar"><i id="pb"></i></div><p id="pt" style="margin:6px 0 0;color:var(--mu);font-size:.9rem"></p></div>
+</section>
+
+<section id="s1">
+<div class="card"><span class="tag">Materi 1</span><h2>Konsep Inovasi</h2>
+<p><b>Inovasi</b> adalah gagasan, cara, atau produk baru (atau hasil perbaikan) yang memberi nilai tambah dan benar-benar dipakai untuk menyelesaikan masalah.</p>
+<details open><summary>🎯 Tujuan inovasi</summary><p>Meningkatkan produktivitas, menekan biaya, menjaga mutu dan keberlanjutan lingkungan, serta membuka pasar baru.</p></details>
+<details><summary>💡 Manfaat inovasi</summary><p>Panen lebih tinggi, pakan lebih hemat, ikan lebih awet, pendapatan naik, limbah berkurang, dan usaha lebih tahan terhadap perubahan cuaca atau harga.</p></details>
+<details><summary>🧠 Berpikir inovatif</summary><p>Rasa ingin tahu, berani bertanya "bagaimana jika?", peka terhadap masalah sekitar, mau mencoba dan belajar dari kegagalan.</p></details></div>
+<div class="card"><h3>Contoh inovasi (ketuk untuk melihat)</h3><div class="grid" id="ex"></div><p id="exd" class="read" style="margin-top:10px">Pilih salah satu contoh di atas.</p></div>
+</section>
+
+<section id="s2">
+<div class="card"><span class="tag">Materi 2</span><h2>Tahapan Design Thinking</h2>
+<p>Design Thinking adalah cara berpikir yang berpusat pada manusia untuk memecahkan masalah. Ketuk tiap tahap.</p>
+<div class="steps" id="st"></div><div class="read" id="std"></div></div>
+<div class="card"><h2>Empathize: Memahami Kebutuhan Pengguna</h2>
+<p>Tiga cara: <b>observasi</b> (mengamati langsung), <b>wawancara</b> (bertanya dengan pertanyaan terbuka), dan <b>immersion</b> (ikut merasakan pekerjaannya). Hasilnya dirangkum dalam <i>empathy map</i>.</p>
+<div class="row"><label for="pers">Pilih pengguna:</label><select id="pers" style="width:auto" onchange="emap()"><option value="0">Pembudidaya ikan</option><option value="1">Nelayan</option><option value="2">Konsumen ikan</option></select></div>
+<div class="emap" id="em"></div></div>
+</section>
+
+<section id="s3">
+<div class="card"><span class="tag">Literasi</span><h2>Membaca &amp; Menganalisis Teks</h2>
+<div class="read"><b>Mencari Solusi di Tepi Kolam</b><p>Pak Rahmat membudidayakan lele di Kotawaringin Timur. Setiap bulan ia mengeluh karena biaya pakan menghabiskan sekitar 70% dari seluruh biaya produksi. Anaknya, Sinta, siswa SMK perikanan, tidak langsung menawarkan solusi. Ia lebih dulu mengamati jadwal pemberian pakan, menanyakan "bagian mana yang paling merepotkan?", dan mencatat bahwa pakan sering terbuang karena ikan tidak mau makan saat air keruh. Dari catatan itu, Sinta mengusulkan pakan campuran maggot hasil olahan sampah dapur dan alat sederhana untuk mengecek kejernihan air sebelum memberi pakan. Hasil uji coba selama satu siklus menunjukkan pakan terbuang jauh berkurang.</p></div>
+<div id="lit"></div></div>
+</section>
+
+<section id="s4">
+<div class="card"><span class="tag">Numerasi</span><h2>Kalkulator Pakan Harian</h2>
+<p>Pakan harian = bobot total ikan × persentase pakan.</p>
+<div class="row"><label>Jumlah ikan <input id="c1" type="number" value="2000" oninput="calc()"></label>
+<label>Bobot rata-rata (g) <input id="c2" type="number" value="100" oninput="calc()"></label>
+<label>Pakan (%/hari) <input id="c3" type="number" value="3" step="0.5" oninput="calc()"></label></div>
+<p class="read" id="cr"></p></div>
+<div class="card"><h2>Latihan Hitungan</h2><p style="color:var(--mu);margin-top:0">Tulis jawaban angka saja (tanpa titik pemisah ribuan).</p><div id="num"></div>
+<h3 style="margin-top:16px">Data tabel</h3>
+<table><tr><th></th><th>Pakan pabrik</th><th>Pakan maggot mandiri</th></tr><tr><td>Harga/kg</td><td>Rp12.000</td><td>Rp8.000</td></tr><tr><td>FCR</td><td>1,2</td><td>1,2</td></tr></table>
+<p style="font-size:.85rem;color:var(--mu)">FCR = kg pakan yang dibutuhkan untuk menghasilkan 1 kg ikan. Tabel dipakai pada soal 2.</p></div>
+</section>
+
+<section id="s5">
+<div class="card"><span class="tag">Latihan</span><h2>Kuis Empathize &amp; Inovasi</h2><div id="quiz"></div></div>
+<div class="card"><h3>Hasil akhir</h3><div class="score" id="sc">0</div><p id="sm" style="text-align:center;margin:0"></p>
+<div style="text-align:center;margin-top:10px"><button class="btn" onclick="location.reload()">Ulangi dari awal</button></div></div>
+</section>
+</main>
+
+<script>
+var T=["Beranda","Inovasi","Design Thinking","Literasi","Numerasi","Kuis"];
+var nav=document.getElementById("nav");
+T.forEach(function(t,i){var b=document.createElement("button");b.textContent=t;b.onclick=function(){go(i)};nav.appendChild(b)});
+function go(i){document.querySelectorAll("section").forEach(function(s,j){s.classList.toggle("on",i==j)});
+nav.querySelectorAll("button").forEach(function(b,j){b.classList.toggle("on",i==j)});scrollTo(0,0)}
+go(0);
+
+var EX=[["Bioflok","Budidaya dengan gumpalan mikroba yang menguraikan limbah dan menjadi pakan tambahan; hemat air dan cocok untuk lahan sempit."],
+["Maggot BSF","Larva lalat tentara hitam dari sampah organik sebagai pakan murah berprotein tinggi."],
+["Sensor kualitas air","Alat pemantau suhu, pH, dan oksigen yang memberi peringatan lewat ponsel."],
+["Produk olahan","Ikan diolah menjadi nugget, abon, atau kerupuk sehingga nilai jual naik dan tahan lama."],
+["Rantai dingin &amp; jual daring","Es, boks pendingin, dan pemasaran lewat media sosial menjaga kesegaran dan memperluas pasar."],
+["Aquaponik","Ikan dan sayuran dipelihara dalam satu sistem; air kolam menyuburkan tanaman."]];
+var ex=document.getElementById("ex");
+EX.forEach(function(e){var b=document.createElement("button");b.className="opt";b.innerHTML="<b>"+e[0]+"</b>";b.onclick=function(){document.getElementById("exd").innerHTML="<b>"+e[0]+":</b> "+e[1]};ex.appendChild(b)});
+
+var ST=[["1. Empathize","Memahami pengguna lewat observasi, wawancara, dan merasakan langsung masalahnya."],
+["2. Define","Merumuskan masalah inti secara jelas, misalnya: \"Pembudidaya butuh cara menekan pakan terbuang karena biaya pakan terlalu besar.\""],
+["3. Ideate","Mengumpulkan sebanyak mungkin ide solusi, lalu memilih yang paling layak."],
+["4. Prototype","Membuat model sederhana dan murah dari ide terpilih."],
+["5. Test","Mencoba prototipe ke pengguna, mengumpulkan masukan, dan memperbaikinya."]];
+var st=document.getElementById("st");
+ST.forEach(function(s,i){var b=document.createElement("button");b.textContent=s[0];b.onclick=function(){st.querySelectorAll("button").forEach(function(x){x.classList.remove("on")});b.classList.add("on");document.getElementById("std").innerHTML="<b>"+s[0]+"</b><br>"+s[1]};st.appendChild(b)});
+st.firstChild.click();
+
+var EM=[["\"Biaya pakan terlalu mahal.\"","Takut gagal panen kalau mencoba cara baru.","Mengecek kolam pagi dan sore, memberi pakan manual.","Cemas saat air keruh atau ikan sakit."],
+["\"Kalau cuaca buruk, tangkapan kami rusak.\"","Bagaimana hasil tangkapan bisa dijual dengan harga baik?","Melaut dini hari, menjual ke pengepul.","Khawatir pada ombak dan harga yang tidak menentu."],
+["\"Saya mau ikan segar tapi masak cepat.\"","Apakah ikan ini aman dan segar?","Membeli di pasar atau lewat aplikasi, membandingkan harga.","Ragu pada kesegaran dan repot membersihkan ikan."]];
+var L=["Says (Mengatakan)","Thinks (Memikirkan)","Does (Melakukan)","Feels (Merasakan)"];
+function emap(){var d=EM[+document.getElementById("pers").value];document.getElementById("em").innerHTML=d.map(function(t,i){return "<div><b>"+L[i]+"</b>"+t+"</div>"}).join("")}emap();
+
+function calc(){var n=+c1.value,w=+c2.value,p=+c3.value,kg=n*w/1000,f=kg*p/100;
+cr.innerHTML="Bobot total ikan = "+kg.toLocaleString("id-ID")+" kg<br>Pakan per hari = <b>"+f.toLocaleString("id-ID",{maximumFractionDigits:2})+" kg</b>"}calc();
+
+var total=0,done=0,right=0;
+function upd(){var pct=Math.round(done/TOT*100);pb.style.width=pct+"%";pt.textContent="Soal terjawab: "+done+" dari "+TOT+" · Benar: "+right;
+sc.textContent=done?Math.round(right/TOT*100):0;sm.textContent=done<TOT?"Selesaikan semua soal untuk skor akhir.":(right/TOT>=.8?"Hebat! Kamu siap menjadi inovator perikanan 🎉":"Cukup baik. Ulangi materi yang masih keliru.")}
+function mark(ok,fb,msg){done++;if(ok)right++;fb.className="fb "+(ok?"ok":"no");fb.innerHTML=(ok?"✔ Benar. ":"✘ Belum tepat. ")+msg;upd()}
+function mcq(id,items){var c=document.getElementById(id);items.forEach(function(it,i){var d=document.createElement("div");d.className="q";d.innerHTML="<b>"+(i+1)+". "+it.q+"</b>";var fb=document.createElement("div");var fin=false;
+it.o.forEach(function(o,k){var b=document.createElement("button");b.className="opt";b.innerHTML=o;b.onclick=function(){if(fin)return;fin=true;var ok=k==it.a;b.classList.add(ok?"ok":"no");if(!ok)d.querySelectorAll(".opt")[it.a].classList.add("ok");mark(ok,fb,it.w)};d.appendChild(b)});d.appendChild(fb);c.appendChild(d)})}
+function numq(id,items){var c=document.getElementById(id);items.forEach(function(it,i){var d=document.createElement("div");d.className="q";d.innerHTML="<b>"+(i+1)+". "+it.q+"</b>";var r=document.createElement("div");r.className="row";var inp=document.createElement("input");inp.type="number";inp.setAttribute("aria-label","Jawaban soal "+(i+1));var u=document.createElement("span");u.textContent=it.u;var b=document.createElement("button");b.className="btn";b.textContent="Periksa";var fb=document.createElement("div");var fin=false;
+b.onclick=function(){if(fin||inp.value==="")return;fin=true;inp.disabled=true;mark(Math.abs(+inp.value-it.a)<0.01,fb,it.w)};
+r.appendChild(inp);r.appendChild(u);r.appendChild(b);d.appendChild(r);d.appendChild(fb);c.appendChild(d)})}
+
+mcq("lit",[
+{q:"Apa masalah utama yang dihadapi Pak Rahmat?",o:["Kolam terlalu sempit","Biaya pakan sekitar 70% dari biaya produksi","Lele sulit dijual","Tidak ada air bersih"],a:1,w:"Teks menyebut biaya pakan mencapai sekitar 70% dari seluruh biaya."},
+{q:"Tindakan Sinta yang termasuk tahap Empathize adalah…",o:["Membuat alat pengecek air","Mengamati jadwal pakan dan bertanya bagian yang merepotkan","Menjual pakan maggot","Menghitung keuntungan"],a:1,w:"Mengamati dan bertanya langsung kepada pengguna adalah inti Empathize."},
+{q:"Kata \"prototipe\" dalam teks paling dekat artinya…",o:["Produk akhir yang dijual massal","Model awal yang dicoba dan diperbaiki","Laporan keuangan","Hasil panen"],a:1,w:"Prototipe adalah model awal untuk diuji."},
+{q:"Bukti bahwa inovasi Sinta bermanfaat adalah…",o:["Ia siswa SMK","Pakan terbuang jauh berkurang setelah uji coba","Ayahnya mengeluh","Air kolam keruh"],a:1,w:"Manfaat dibuktikan dengan hasil uji coba, yaitu pakan terbuang berkurang."}]);
+
+numq("num",[
+{q:"Kolam berisi 2.000 lele, bobot rata-rata 100 g, pakan 3% bobot tubuh per hari. Berapa kg pakan per hari?",u:"kg",a:6,w:"2.000 × 100 g = 200 kg biomassa; 3% × 200 kg = 6 kg."},
+{q:"Panen 500 kg lele. Berapa biaya pakan pabrik (FCR 1,2; Rp12.000/kg)?",u:"rupiah",a:7200000,w:"500 × 1,2 = 600 kg pakan; 600 × 12.000 = Rp7.200.000."},
+{q:"Dengan pakan maggot (Rp8.000/kg, FCR sama), berapa rupiah biaya pakan yang dihemat?",u:"rupiah",a:2400000,w:"600 kg × 8.000 = Rp4.800.000; hemat 7.200.000 − 4.800.000 = Rp2.400.000."},
+{q:"Dari wawancara 40 konsumen, 24 orang ingin ikan olahan yang praktis. Berapa persennya?",u:"%",a:60,w:"24 ÷ 40 × 100% = 60%."},
+{q:"Nelayan menangkap 80 kg ikan. Tanpa es, 20% rusak. Harga Rp30.000/kg. Berapa kerugiannya?",u:"rupiah",a:480000,w:"20% × 80 kg = 16 kg; 16 × 30.000 = Rp480.000."}]);
+
+mcq("quiz",[
+{q:"Pengertian inovasi yang paling tepat:",o:["Membeli alat termahal","Gagasan atau cara baru yang memberi nilai tambah dan dipakai","Mengulang cara lama","Meniru tanpa mengubah"],a:1,w:"Inovasi harus baru atau diperbaiki, bermanfaat, dan diterapkan."},
+{q:"Contoh inovasi untuk menjaga ikan tetap segar sampai ke pembeli:",o:["Menjemur ikan di aspal","Boks pendingin dan es","Menambah jumlah kolam","Mengganti nama produk"],a:1,w:"Rantai dingin menjaga mutu dan mengurangi ikan rusak."},
+{q:"Urutan Design Thinking yang benar:",o:["Define, Empathize, Test, Ideate, Prototype","Empathize, Define, Ideate, Prototype, Test","Ideate, Test, Empathize, Define, Prototype","Prototype, Test, Define, Empathize, Ideate"],a:1,w:"Urutannya: Empathize → Define → Ideate → Prototype → Test."},
+{q:"Pertanyaan wawancara yang baik kepada nelayan:",o:["Apakah Anda suka melaut? (ya/tidak)","Ceritakan kesulitan terbesar saat menjual hasil tangkapan.","Anda pasti butuh mesin baru, bukan?","Berapa umur Anda?"],a:1,w:"Pertanyaan terbuka menggali cerita dan kebutuhan sebenarnya."},
+{q:"Pembudidaya berkata \"Saya takut mencoba cara baru, nanti ikan mati.\" Ini masuk kolom empathy map…",o:["Says/Thinks/Feels (ucapan sekaligus perasaan)","Does (tindakan)","Bukan data pengguna","Prototype"],a:0,w:"Kalimat itu diucapkan dan mencerminkan rasa takut, jadi mengungkap Says dan Feels."},
+{q:"Kenapa tahap Empathize dilakukan sebelum membuat solusi?",o:["Agar cepat selesai","Agar solusi sesuai kebutuhan nyata pengguna","Agar tidak perlu uji coba","Agar biaya naik"],a:1,w:"Tanpa memahami pengguna, solusi berisiko tidak terpakai."}]);
+
+var TOT=4+5+6;upd();
+</script>
+</body>
+</html>
